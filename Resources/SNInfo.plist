@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Application Identity -->
+    <key>CFBundleName</key>
+    <string>stickynote</string>
+    
+    <key>CFBundleDisplayName</key>
+    <string>Sticky Note</string>
+    
+    <key>CFBundleIdentifier</key>
+    <string>org.gnustep.stickynote</string>
+    
+    <key>CFBundleVersion</key>
+    <string>0.0.1</string>
+    
+    <key>CFBundleShortVersionString</key>
+    <string>0.0.1</string>
+    
+    <!-- Application Information -->
+    <key>CFBundleExecutable</key>
+    <string>sn</string>
+    
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    
+    <!-- Author and Copyright -->
+    <key>NSHumanReadableCopyright</key>
+    <string>Copyright © 2025 Vic Thacker. Licensed under BSD 3-Clause License.</string>
+    
+    <key>CFBundleGetInfoString</key>
+    <string>Sticky Note 0.0.1, Copyright © 2025 Vic Thacker. Licensed under BSD 3-Clause License.</string>
+    
+    <!-- Application Description -->
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.productivity</string>
+    
+    <!-- GNUstep Specific -->
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    
+    <key>NSMainNibFile</key>
+    <string></string>
+    
+    <!-- Application Role -->
+    <key>LSUIElement</key>
+    <false/>
+    
+    <!-- Document Types -->
+    <key>CFBundleDocumentTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeName</key>
+            <string>Text File</string>
+            <key>CFBundleTypeExtensions</key>
+            <array>
+                <string>txt</string>
+            </array>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>LSHandlerRank</key>
+            <string>Alternate</string>
+        </dict>
+    </array>
+    
+    <!-- URL Schemes -->
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>Sticky Note</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>stickynote</string>
+            </array>
+        </dict>
+    </array>
+    
+    <!-- Supported Platforms -->
+    <key>LSMinimumSystemVersion</key>
+    <string>10.0</string>
+    
+    <!-- Application Features -->
+    <key>LSSupportsOpeningDocumentsInPlace</key>
+    <true/>
+    
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
+    
+    <!-- Localization -->
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+    </array>
+    
+    <!-- Application Metadata -->
+    <key>ApplicationDescription</key>
+    <string>A professional sticky notes application for GNUstep environments. Features multiple color themes, auto-save functionality, and clean user interface design.</string>
+    
+    <key>ApplicationAuthor</key>
+    <string>Vic Thacker</string>
+    
+    <key>ApplicationLicense</key>
+    <string>BSD 3-Clause License</string>
+    
+    <key>ApplicationURL</key>
+    <string>https://github.com/gnustep/stickynote</string>
+    
+    <!-- Build Information -->
+    <key>DTCompiler</key>
+    <string>com.apple.compilers.llvm.clang.1_0</string>
+    
+    <key>DTPlatformName</key>
+    <string>gnustep</string>
+    
+    <key>DTSDKName</key>
+    <string>gnustep</string>
+    
+    <!-- Release Notes -->
+    <key>ApplicationReleaseNotes</key>
+    <string>Initial release of Sticky Note featuring six color themes, auto-save functionality, and professional user interface design.</string>
+</dict>
+</plist>
